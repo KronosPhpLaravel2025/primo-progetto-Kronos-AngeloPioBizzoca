@@ -73,7 +73,7 @@ public function services(){
     return view('services', ['services' => $array]);
 }
 
-public function service($services){
+ public function service ($services){
     $array = [
         [
             'key' => 'social-media-management',
