@@ -28,6 +28,11 @@
         </div>
       </div>
     </nav>
+    <div class="text-center pt-5 mb-4">
+      <h3 class="fw-semibold text-uppercase pb-1 d-inline-block">
+      A little overview of our products
+      </h3>
+    </div>
     <div class="container min-vh-100 d-flex align-items-center pt-3 pb-3">
       <div class="row justify-content-center g-4 w-100">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">

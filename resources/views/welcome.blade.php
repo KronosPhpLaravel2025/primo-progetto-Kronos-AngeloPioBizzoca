@@ -41,7 +41,7 @@
     </div>
     <section class="d-flex align-items-center justify-content-center pt-3 bg-light">
       <div class="text-center p-3" style="max-width: 800px;">
-        <h1 class="mb-4">Welcome to Kronos</h1>
+        <h1 class="mb-4 text-uppercase">Welcome to Kronos</h1>
         <p class="lead"> We are a full-service digital agency dedicated to helping businesses grow online. From social media and web marketing to web development and cybersecurity, we provide tailored solutions that drive results and strengthen your brand. Our mission is to transform ideas into impactful digital experiences that engage your audience and boost your business. </p>
       </div>
     </section> 
