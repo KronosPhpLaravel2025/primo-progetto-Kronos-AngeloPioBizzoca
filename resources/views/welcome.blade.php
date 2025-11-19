@@ -1,5 +1,4 @@
 <x-main>
-  <x-navbar></x-navbar>
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
     <div class="carousel-inner text-center">
       <div class="carousel-item active">
@@ -31,6 +30,5 @@
       <p class="lead"> We are a full-service digital agency dedicated to helping businesses grow online. From social media and web marketing to web development and cybersecurity, we provide tailored solutions that drive results and strengthen your brand. Our mission is to transform ideas into impactful digital experiences that engage your audience and boost your business. </p>
     </div>
   </section>
-  <hr class="m-0 border-secondary">
-  <x-footer></x-footer>
+  <hr class="m-0 border-secondary" />
 </x-main>
