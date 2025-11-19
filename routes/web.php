@@ -12,4 +12,3 @@ Route::get('/talk-with-us', [PageController::class, 'talk_with_us']);
 Route::get('/our-products', [PageController::class, 'our_products']);
 Route::get('/services', [PageController::class, 'services']);
 Route::get('/detail/{services}', [PageController::class, 'service']);
-
