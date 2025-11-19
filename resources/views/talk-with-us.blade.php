@@ -1,5 +1,5 @@
 <x-main>
-    <x-navba></navbar>
+  <x-navbar></x-navbar>
     <div class="text-center pt-5 mb-2">
       <h3 class="fw-semibold text-uppercase d-inline-block">
       Get in touch with us
@@ -19,5 +19,5 @@
       </form>
     </div>
     <hr class="m-0 border-secondary mt-5">
-    <x-footer></x-footer>
-  </x-main>
+  <x-footer></x-footer>
+</x-main>

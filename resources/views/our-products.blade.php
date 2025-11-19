@@ -34,5 +34,5 @@
       </div>
     </div>
     <hr class="m-0 border-secondary">
-    <x-footer></x-footer>
-  </x-main>
+  <x-footer></x-footer>
+</x-main>
