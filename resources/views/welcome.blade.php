@@ -1,6 +1,5 @@
-
-  <x-main>
-<x-navbar></x-navbar>
+<x-main>
+    <x-navbar></x-navbar>
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
       <div class="carousel-inner text-center">
         <div class="carousel-item active"><img src="https://www.socialchamp.com/blog/wp-content/uploads/2023/12/Content-Blog-Banner_Q4-2023_1125x600_35_Social-Media-Manager.png" class="d-block mx-auto img-fluid w-50" style="height: 350px; object-fit: cover;" alt="social-media-management"></div>
@@ -19,5 +18,5 @@
       </div>
     </section> 
     <hr class="m-0 border-secondary">
-<x-footer></x-footer>
-  </x-main>
+    <x-footer></x-footer>
+</x-main>
