@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-3 fw-light">Contact</h5>
+        <h5 class="text-uppercase mb-3 fw-light">Contacts</h5>
         <ul class="list-unstyled mb-0 text-center small">
           <li class="mb-2">
             <a class="text-body fw-light text-decoration-none">Head Office: Via della Repubblica 100, Rome, Italy</a>

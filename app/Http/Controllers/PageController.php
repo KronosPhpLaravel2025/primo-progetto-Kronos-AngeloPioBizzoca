@@ -69,7 +69,9 @@ public function services(){
             'description' => 'Our Data Analysis & Reports service turns your company’s data into strategic insights for informed decision-making. We collect, organize, and analyze data from multiple channels to identify trends, performance metrics, and growth opportunities. We create clear, customized reports with intuitive dashboards and visualizations for easy interpretation. We provide actionable recommendations to optimize processes, marketing strategies, and business operations. The goal is to empower you to make data-driven decisions, improving efficiency and competitiveness.'
         ],
 
+
     ];
+
     return view('services', ['services' => $array]);
 }
 
