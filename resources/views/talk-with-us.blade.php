@@ -6,11 +6,11 @@
     <form class="w-50 p-4 bg-light rounded shadow">
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Insert here your email">
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Insert here your message"></textarea>
       </div>
       <button type="submit" class="btn btn-outline-secondary w-100">Submit</button>
     </form>
