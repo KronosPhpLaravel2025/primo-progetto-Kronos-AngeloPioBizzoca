@@ -26,8 +26,8 @@
   </div>
   <section class="d-flex align-items-center justify-content-center pt-3 bg-light">
     <div class="text-center p-3" style="max-width: 800px;">
-      <h1 class="mb-4 text-uppercase">Welcome to Kronos</h1>
-      <p class="lead"> We are a full-service digital agency dedicated to helping businesses grow online. From social media and web marketing to web development and cybersecurity, we provide tailored solutions that drive results and strengthen your brand. Our mission is to transform ideas into impactful digital experiences that engage your audience and boost your business. </p>
+      <h1 class="mb-4 text-uppercase border-bottom border-secondary fw-bold">Welcome to Kronos</h1>
+      <p class="lead fs-7">We are a full-service digital agency dedicated to helping businesses thrive online. From social media management and web marketing to web development and cybersecurity, we provide tailored solutions designed to drive measurable results and strengthen your brand.<br>Our team works closely with clients to transform innovative ideas into seamless digital experiences. Whether it’s developing a responsive website, managing social media campaigns, or securing your digital assets, we deliver strategies that engage your audience and maximize your ROI.<br>At the core of our approach is understanding your unique business needs, creating solutions that are both visually appealing and highly effective in achieving your goals. </p>
     </div>
   </section>
   <hr class="m-0 border-secondary" />

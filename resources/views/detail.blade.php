@@ -5,7 +5,7 @@
         <img src="" alt="">
       </div>
       <div class="col-md-8 text-start">
-        <h2 class="mb-3 fw-semibold">{{$detail['name']}}</h2>
+        <h2 class="mb-3 fw-semibold border-bottom border-secondary">{{$detail['name']}}</h2>
         <p class="text-muted fs-5">{{$detail['description']}}</p>
       </div>
     </div>

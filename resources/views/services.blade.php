@@ -2,8 +2,8 @@
   <div class="d-flex justify-content-center align-items-center">
     <div class="pt-5 pb-5" style="max-width: 500px; width: 100%;">
       <div class="d-flex justify-content-between align-items-center mb-4 mt-4">
-        <h2 class="m-0 text-uppercase">Services list</h2>
-        <a href="/create" class="btn btn-outline-secondary fw-semibold">
+        <h2 class="m-0 text-uppercase fw-bold">Services list</h2>
+        <a href="/create" class="btn btn-outline-secondary fw-semibold border-bottom border-secondary">
           Create a new service
         </a>
       </div>
