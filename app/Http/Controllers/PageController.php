@@ -85,13 +85,36 @@ public function services(){
     }
 
     public function create(){
-        Service::create([
-            'key' => 'social-media-management',
-            'name' => 'Social media management',
-            'icon' => 'https://cdn-icons-png.flaticon.com/128/18314/18314771.png',
-            'description' => 'Our Social Media Management service provides tailored strategies to enhance your brand’s digital presence. We analyze your audience, set clear objectives, and create content designed to drive engagement and loyalty. We manage daily profiles, plan targeted campaigns, and monitor results. The goal is to turn social media into a growth engine, strengthening your online identity and connecting with your customers.'
-        ]);
+
+        return view('create');
     }
+
+
+    public function store (Request $request){
+       
+        $image = '';
+        $icon = '';
+
+            
+        if($request->hasFile('image')){
+            $image = $request->file('image')->store('image','public');
+        }
+        if($request->hasFile('icon')){
+            $icon = $request->file('icon')->store('icon','public');
+        }
+        Service::create([
+            'key' => $request->key,
+            'name' =>$request->name,
+            'icon' =>$icon,
+            'image' =>$image,
+            'description' =>$request->description,
+
+        ]);
+
+            return redirect()->route('services');
+
+    }
+
 }
 
 

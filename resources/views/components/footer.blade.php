@@ -13,12 +13,12 @@
             <img src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="X" class="img-fluid mb-2" style="width:25px; height:25px;">
           </div>
           <div class="d-flex flex-column">
-            <a href="#!" class="text-body text-decoration-none mb-2 fw-light">Facebook</a>
-            <a href="#!" class="text-body text-decoration-none mb-2 fw-light">Google</a>
-            <a href="#!" class="text-body text-decoration-none mb-2 fw-light">Github</a>
-            <a href="#!" class="text-body text-decoration-none mb-2 fw-light">LinkedIn</a>
-            <a href="#!" class="text-body text-decoration-none mb-2 fw-light">Instagram</a>
-            <a href="#!" class="text-body text-decoration-none mb-2 fw-light">X</a>
+            <a class="text-body text-decoration-none mb-2 fw-light">Facebook</a>
+            <a class="text-body text-decoration-none mb-2 fw-light">Google</a>
+            <a class="text-body text-decoration-none mb-2 fw-light">Github</a>
+            <a class="text-body text-decoration-none mb-2 fw-light">LinkedIn</a>
+            <a class="text-body text-decoration-none mb-2 fw-light">Instagram</a>
+            <a class="text-body text-decoration-none mb-2 fw-light">X</a>
           </div>
         </div>
       </div>
