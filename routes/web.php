@@ -14,3 +14,4 @@ Route::get('/services', [PageController::class, 'services'])->name('services');
 Route::get('/detail/{services}', [PageController::class, 'service']);
 Route::get('/create',[PageController::class, 'create']); 
 Route::post('/store',[PageController::class, 'store']);
+Route::delete('/delete-service/{key}',[PageController::class, 'destroy']);

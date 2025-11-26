@@ -115,6 +115,16 @@ public function services(){
 
     }
 
+    public function destroy($key){
+        $service = Service::where('key', '=', $key)->first();
+        if($service){
+            $service->delete();
+            return redirect()->route('services');
+        }
+        else{
+            abort(404);
+        }
+    }
 }
 
 
