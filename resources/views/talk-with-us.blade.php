@@ -4,8 +4,8 @@
         Get in touch with us
     </h3>
 </div>
-<div class="container d-flex justify-content-center align-items-center mt-3 flex-column">
-    <form class="w-50 p-4 bg-light rounded-3 shadow-sm">      
+<div class="container d-flex justify-content-center align-items-center mt-3">
+    <form class="p-4 bg-light rounded-3 shadow-sm w-100" style="max-width: 500px;">
         <div class="mb-3">
             <label for="emailInput" class="form-label text-secondary fw-semibold">Email address</label>
             <input type="email" class="form-control form-control-sm border-secondary" id="emailInput" placeholder="Enter here your email">

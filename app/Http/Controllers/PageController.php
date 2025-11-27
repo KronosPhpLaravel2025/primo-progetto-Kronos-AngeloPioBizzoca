@@ -125,6 +125,29 @@ public function services(){
             abort(404);
         }
     }
+
+    public function update($key , Request $request){
+        $service = Service::where('key', '=', $key)->first();
+        if($service){
+            $service->update([  
+            'key' => $request->key,
+            'name' =>$request->name,
+            'description' =>$request->description,
+        ]);
+        return redirect()->route('services');
+        }else{
+            abort(404);
+        }
+    }
+
+        public function edit($key){
+         $service = Service::where('key', '=', $key)->first();
+         if($service){
+            return view('edit' ,['service'=>$service]);
+        }else{
+            abort(404);
+        }
+    }
 }
 
 
