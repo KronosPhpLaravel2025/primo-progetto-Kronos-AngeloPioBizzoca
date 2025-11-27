@@ -48,8 +48,8 @@
   <section class="d-flex align-items-center justify-content-center pt-3 bg-light">
     <div class="container px-3 px-md-5 text-center text-md-start">
       <div class="mx-auto" style="max-width: 800px;">
-        <h1 class="mb-4 text-uppercase border-bottom border-secondary fw-bold">Welcome to Kronos</h1>
-        <p class="lead fs-6">
+        <h1 class="mb-4 text-uppercase border-bottom border-secondary fw-bold text-center">Welcome to Kronos</h1>
+        <p class="lead fs-6 text-center">
           We are a full-service digital agency dedicated to helping businesses thrive online. From social media management and web marketing to web development and cybersecurity, we provide tailored solutions designed to drive measurable results and strengthen your brand.<br>
           Our team works closely with clients to transform innovative ideas into seamless digital experiences. Whether it’s developing a responsive website, managing social media campaigns, or securing your digital assets, we deliver strategies that engage your audience and maximize your ROI.<br>
           At the core of our approach is understanding your unique business needs, creating solutions that are both visually appealing and highly effective in achieving your goals.
