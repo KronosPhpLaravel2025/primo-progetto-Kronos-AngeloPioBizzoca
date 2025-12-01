@@ -35,7 +35,7 @@
                     </td>
                     <td class="px-2 px-sm-3">
                         <a href="/detail/{{ $service['key'] }}"
-                           class="d-flex flex-column flex-sm-row align-items-center justify-content-center gap-1 gap-sm-2 text-secondary text-decoration-none">
+                           class="d-flex flex-column flex-sm-row align-items-center justify-content-center gap-1 gap-sm-2 text-secondary text-decoration-none text-decoration-underline">
                             <img src="{{ $icon }}" alt="{{ $service['name'] }}" width="24" height="24">
                             <span class="fw-light text-center text-sm-start">{{ $service['name'] }}</span>
                         </a>
