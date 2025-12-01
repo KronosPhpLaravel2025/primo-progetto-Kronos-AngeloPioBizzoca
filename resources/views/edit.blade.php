@@ -34,7 +34,7 @@
                         placeholder="Enter here the description">{{$service['description']}}</textarea>
                 </div>
                 <button type="submit" class="btn btn-outline-secondary btn-lg w-100 fw-semibold mt-3">
-                    Edit your product
+                    Save your edits
                 </button>
             </form>
         </div>

@@ -16,7 +16,9 @@ public function talk_with_us(){
 }
 
 public function our_products(){
-    return view('our-products') ;
+     $array = Service::all();
+
+    return view('our-products', ['services' => $array]);
 }
 
 public function services(){
@@ -102,6 +104,7 @@ public function services(){
         if($request->hasFile('icon')){
             $icon = $request->file('icon')->store('icon','public');
         }
+        
         Service::create([
             'key' => $request->key,
             'name' =>$request->name,
@@ -129,9 +132,21 @@ public function services(){
     public function update($key , Request $request){
         $service = Service::where('key', '=', $key)->first();
         if($service){
+            $image =  $service->image;
+           $icon = $service->icon;
+
+            
+        if($request->hasFile('image')){
+            $image = $request->file('image')->store('image','public');
+        }
+        if($request->hasFile('icon')){
+            $icon = $request->file('icon')->store('icon','public');
+        }
             $service->update([  
             'key' => $request->key,
             'name' =>$request->name,
+              'icon' =>$icon,
+            'image' =>$image,
             'description' =>$request->description,
         ]);
         return redirect()->route('services');
@@ -144,6 +159,15 @@ public function services(){
          $service = Service::where('key', '=', $key)->first();
          if($service){
             return view('edit' ,['service'=>$service]);
+        }else{
+            abort(404);
+        }
+    }
+
+    public function show($key){
+                 $service = Service::where('key', '=', $key)->first();
+         if($service){
+            return view('show' ,['service'=>$service]);
         }else{
             abort(404);
         }

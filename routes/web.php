@@ -23,3 +23,4 @@ Route::post('/store',[PageController::class, 'store']);
 Route::delete('/delete-service/{key}',[PageController::class, 'destroy']);
 Route::get('/edit-service/{key}', [PageController::class, 'edit']);
 Route::put('update-service/{key}', [PageController::class, 'update']);
+Route::get('show-detail-product/{key}', [PageController::class, 'show']);

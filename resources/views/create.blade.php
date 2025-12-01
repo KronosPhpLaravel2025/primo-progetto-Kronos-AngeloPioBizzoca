@@ -9,7 +9,7 @@
         <div class="col-12 col-md-8 col-lg-6">
             <form class="p-4 bg-light rounded-3 shadow-sm" action="/store" method="POST" enctype="multipart/form-data">
                 @csrf
-                @method('delete')
+             
                 <div class="mb-3">
                     <label class="form-label text-secondary fw-semibold">Key</label>
                     <input type="text" name="key" class="form-control form-control-sm border-secondary"
